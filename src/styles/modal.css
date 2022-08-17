@@ -1,9 +1,9 @@
 /*MODAL CLIENTE NÃO CADASTRADO*/
 
-.backGroundModal{
+.backGroundModal {
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0px;
   left: 0px;
@@ -14,8 +14,8 @@
   text-align: center;
 }
 
-.containerModal{
-  background-color: #FF2253;
+.containerModal {
+  background-color: #ff2253;
   width: 70vh;
   height: 50vh;
   border-radius: 5px;
@@ -25,25 +25,33 @@
   position: relative;
 }
 
-.btnFecharModal, .btn--fecharLogin{
+.btnFecharModal,
+.btn--fecharLogin {
   font-size: 1.2em;
   width: 40px;
   height: 40px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   border-radius: 50%;
-  background-color: #9E1517;
-  color: white;
+  border: none;
+  background-color: white;
+  color: #ff2253;
   cursor: pointer;
-  box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
   position: absolute;
   top: -20px;
   right: -15px;
 }
 
-.modalTituloLogin{
+.btnFecharModal:hover,
+.btn--fecharLogin:hover {
+  background-color: #ff2253;
+  color: white;
+}
+
+.modalTituloLogin {
   width: 60%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 25px;
   font-weight: 700;
   color: white;
@@ -52,9 +60,9 @@
   text-align: center;
 }
 
-.modalTitulo{
+.modalTitulo {
   width: 60%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: white;
@@ -63,7 +71,7 @@
   text-align: center;
 }
 
-.secaoLogin{
+.secaoLogin {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -71,21 +79,21 @@
   margin-top: 30px;
 }
 
-.container__logar{
+.container__logar {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
   align-items: center;
 }
 
-.formularioLogin{
+.formularioLogin {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 25px;
 }
 
-.inputs{
+.inputs {
   width: 50vh;
   height: 42px;
   border-radius: 3px;
@@ -93,32 +101,32 @@
   padding-left: 10px;
 }
 
-.textoCadastrar{
-  font-family: 'Montserrat', sans-serif;
+.textoCadastrar {
+  font-family: "Montserrat", sans-serif;
   color: white;
 }
 
-.btnLoginModal{
+.btnLoginModal {
   width: 20vh;
   height: 6vh;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
   border-radius: 5px;
   border: none;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
+  color: #ff2253;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 600;
   margin-top: 10px;
   cursor: pointer;
 }
 
-.btnLoginModal:hover{
+.btnLoginModal:hover {
   width: 20vh;
   height: 6vh;
   background-color: #5f0f40;
   border-radius: 5px;
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 600;
   margin-top: 10px;
@@ -127,134 +135,136 @@
 
 /*EDIÇÃO DE PROTUDO/ CADASTRO*/
 
-.modalCadastroProduto{
+.modalCadastroProduto {
   width: 71vh;
   height: 90vh;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-.headerModalCadastroProduto{
+.headerModalCadastroProduto {
   display: flex;
   height: 8vh;
   justify-content: space-between;
-  background-color: #F8F9FA;
-  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  font-family: "Poppins", sans-serif;
 }
 
-.tituloCadastroProduto{
+.tituloCadastroProduto {
   font-size: 2vh 500;
   margin-left: 3.5vh;
   line-height: 2.8vh;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
-.btnFecharCadasto{
+.btnFecharCadasto {
   width: 4.5vh;
   height: 4.2vh;
-  background-color: #E9ECEF;
+  background-color: #e9ecef;
   border: none;
   border-radius: 5px;
-  color: #868E96;
+  color: #868e96;
   font-size: 14px;
   margin-top: 12px;
   margin-right: 25px;
   cursor: pointer;
 }
-.formularioCadastroProduto{
+.formularioCadastroProduto {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 4vh;
 }
 
-.containerCategoria{
+.containerCategoria {
   display: flex;
   flex-direction: column;
   justify-content: left;
   margin-bottom: 2.7vh;
 }
 
-.categoriaTitulo{
-  font-family: 'Poppins', sans-serif;
+.categoriaTitulo {
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   color: #212529;
   text-align: left;
   margin-bottom: 4px;
 }
 
-.categoria{
+.categoria {
   padding-left: 10px;
   width: 60vh;
   height: 6vh;
-  background-color: #F8F9FA;
-  color: #868E96;
+  background-color: #f8f9fa;
+  color: #868e96;
   border-radius: 12px;
   border: 1.5px solid;
-  border-color: #DEE2E6;
+  border-color: #dee2e6;
 }
 
-.descricao{
+.descricao {
   height: 11vh;
 }
 
-.categoriaBtn{
+.categoriaBtn {
   width: 60vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.btnCategoria{
+.btnCategoria {
   width: 135px;
   height: 40px;
-  background-color: #DEE2E6;
-  color: #868E96;
+  background-color: #dee2e6;
+  color: #868e96;
   border-radius: 32px;
   border: none;
   cursor: pointer;
 }
 
-.categoriaClicada{
+.categoriaClicada {
   width: 135px;
   height: 40px;
-  background-color: #DEE2E6;
-  color: #FF2253;
+  background-color: #dee2e6;
+  color: #ff2253;
   border-radius: 32px;
   border: none;
   cursor: pointer;
 }
 
-.btnCadastrar{
-  font-family: 'Poppins', sans-serif;
+.btnCadastrar {
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   width: 60vh;
   height: 7vh;
-  background-color: #FF2253;
+  background-color: #ff2253;
   color: white;
   border-radius: 32px;
   border: none;
   cursor: pointer;
 }
 
-.btnSalvar, .btnExcluir{
-  font-family: 'Poppins', sans-serif;
+.btnSalvar,
+.btnExcluir {
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   width: 34vh;
   height: 7vh;
-  background-color: #F8F9FA;
-  color: #868E96;
+  background-color: #f8f9fa;
+  color: #868e96;
   border-radius: 32px;
   border: 1.5px solid;
-  border-color: #F8F9FA;
+  border-color: #f8f9fa;
   cursor: pointer;
 }
 
-.btnSalvar:hover, .btnExcluir:hover{
-  font-family: 'Poppins', sans-serif;
+.btnSalvar:hover,
+.btnExcluir:hover {
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   width: 34vh;
   height: 7vh;
-  background-color: #FF2253;
+  background-color: #ff2253;
   color: white;
   border-radius: 32px;
   cursor: pointer;
@@ -262,10 +272,10 @@
 
 /*MODAL EXCLUIR PRODUTO*/
 
-.backGroundModalExcluir{
+.backGroundModalExcluir {
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0px;
   left: 0px;
@@ -276,30 +286,30 @@
   text-align: center;
 }
 
-.modalExclusaoProduto{
+.modalExclusaoProduto {
   margin-top: 8vh;
   width: 71vh;
   height: 30vh;
   background-color: white;
-  font-family: 'Poppins', sans-serif;
-  border-radius: 8px
+  font-family: "Poppins", sans-serif;
+  border-radius: 8px;
 }
 
-.headerModalExclusaoProduto{
+.headerModalExclusaoProduto {
   height: 8vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
   border-radius: 8px 8px 0 0;
 }
 
-.tituloCadastroProduto{
+.tituloCadastroProduto {
   font-size: 14px;
   font-weight: 700;
 }
 
-.textoExclusao{
+.textoExclusao {
   font-size: 16px;
   font-weight: 500;
   color: black;
@@ -307,34 +317,36 @@
   margin-bottom: 3vh;
 }
 
-.btnSim:hover, .btnNao:hover{
+.btnSim:hover,
+.btnNao:hover {
   width: 30vh;
   height: 7vh;
   border-radius: 30px;
   border: none;
-  background-color: #FF2253;
+  background-color: #ff2253;
   color: white;
   margin-left: 10px;
   cursor: pointer;
 }
 
-.btnSim, .btnNao{
+.btnSim,
+.btnNao {
   width: 30vh;
   height: 7vh;
   border-radius: 30px;
   border: none;
-  background-color: #F8F9FA;
-  color: #868E96;
+  background-color: #f8f9fa;
+  color: #868e96;
   margin-left: 10px;
   cursor: pointer;
 }
 
 /* MODALs STATUS*/
 
-.containerModalStatus{
+.containerModalStatus {
   width: 70vh;
   height: 18vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   border-radius: 10px;
   position: absolute;
@@ -343,9 +355,9 @@
   right: 0;
 }
 
-.status{
+.status {
   height: 8vh;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
   display: flex;
   justify-content: space-between;
   border-radius: 10px 10px 0 0;
@@ -353,48 +365,45 @@
   font-size: 14px;
 }
 
-.textoStatus{
+.textoStatus {
   margin-left: 4vh;
 }
 
-.fecharModalStatus{
+.fecharModalStatus {
   width: 4vh;
   height: 4vh;
   margin-right: 4vh;
   border: none;
   border-radius: 4px;
-  color: #868E96;
+  color: #868e96;
   cursor: pointer;
 }
 
-.containerInformacaoStatus{
+.containerInformacaoStatus {
   height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.textoStatus{
- margin-top: 15px;
- color: #212529;
- font-size: 12px;
+.textoStatus {
+  margin-top: 15px;
+  color: #212529;
+  font-size: 12px;
 }
 
-.linhaVerde{
+.linhaVerde {
   width: 70vh;
   height: 8px;
   font-size: 5px;
-  background-color: #39DF8F;
-  border-radius: 0 0 8px 8px; 
-}
-
-.linhaVermelha{
-  width: 70vh;
-  height: 8px;
-  font-size: 5px;
-  background-color: #FF2253;
+  background-color: #39df8f;
   border-radius: 0 0 8px 8px;
 }
 
-
-
+.linhaVermelha {
+  width: 70vh;
+  height: 8px;
+  font-size: 5px;
+  background-color: #ff2253;
+  border-radius: 0 0 8px 8px;
+}
